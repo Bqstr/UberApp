@@ -1,0 +1,1013 @@
+{
+  "name": "component_1",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "0pTRWNJBpX5Inoea8qUIq8",
+    "node": "151:4",
+    "version": "5536976567",
+    "component-id": "c76fb9e308f666d946c610b7472e7d9fe6f6e6fe"
+  },
+  "default": "Component 1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Home Indicator"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 10"
+      },
+      {
+        "type": "text",
+        "id": "Satisfy any carving"
+      },
+      {
+        "type": "text",
+        "id": "Order on Eats"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 11"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 12"
+      },
+      {
+        "type": "text",
+        "id": "Where To?"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 3"
+      },
+      {
+        "type": "group",
+        "id": "svgexport-1 1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "text",
+        "id": "Now"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      },
+      {
+        "type": "group",
+        "id": "star_black_24dp 1"
+      },
+      {
+        "type": "text",
+        "id": "Choose a saved place"
+      },
+      {
+        "type": "text",
+        "id": "Set distination on map"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 4"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 5"
+      },
+      {
+        "type": "vector",
+        "id": "Vector4"
+      },
+      {
+        "type": "text",
+        "id": "Around you"
+      },
+      {
+        "type": "image",
+        "id": "image 8"
+      },
+      {
+        "type": "image",
+        "id": "image 9"
+      },
+      {
+        "type": "image",
+        "id": "image 7"
+      },
+      {
+        "type": "vector",
+        "id": "Home Indicator1"
+      },
+      {
+        "type": "group",
+        "id": "Group"
+      },
+      {
+        "type": "group",
+        "id": "Group1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector5"
+      },
+      {
+        "type": "group",
+        "id": "Group2"
+      },
+      {
+        "type": "group",
+        "id": "Group3"
+      },
+      {
+        "type": "vector",
+        "id": "Vector6"
+      },
+      {
+        "type": "group",
+        "id": "Group4"
+      },
+      {
+        "type": "group",
+        "id": "Group5"
+      },
+      {
+        "type": "vector",
+        "id": "Vector7"
+      },
+      {
+        "type": "vector",
+        "id": "Vector8"
+      },
+      {
+        "type": "vector",
+        "id": "Vector9"
+      }
+    ],
+    "modes": {
+      "Component 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Home Indicator",
+              "Rectangle 10",
+              "Satisfy any carving",
+              "Order on Eats",
+              "Vector",
+              "Rectangle 11",
+              "Rectangle 12",
+              "Where To?",
+              "Vector 3",
+              "svgexport-1 1",
+              "Vector1",
+              "Now",
+              "Ellipse 2",
+              "Ellipse 3",
+              "star_black_24dp 1",
+              "Choose a saved place",
+              "Set distination on map",
+              "Vector2",
+              "Vector3",
+              "Vector 4",
+              "Vector 5",
+              "Vector4",
+              "Around you",
+              "image 8",
+              "image 9",
+              "image 7"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Home Indicator",
+            "margin": {
+              "top": 730.0,
+              "right": 1.0
+            },
+            "is-structured": false,
+            "children": [
+              "Home Indicator1"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 10",
+            "margin": {
+              "left": 16.0,
+              "top": 42.0,
+              "right": 17.0,
+              "bottom": 587.0
+            },
+            "border-radius": 8.0,
+            "tap-handler": "$green_rectangle_main_page",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_10.svg"
+          },
+          {
+            "id": "Satisfy any carving",
+            "margin": {
+              "left": 33.0,
+              "top": 80.0,
+              "right": 155.0,
+              "bottom": 659.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "$main_page_text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 21.0,
+            "line-height": 1.192999976021903,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "Order on Eats",
+            "margin": {
+              "left": 33.0,
+              "top": 120.0,
+              "right": 247.0,
+              "bottom": 626.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "$main_page_text2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.1929999033610026,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": 135.0,
+              "top": 124.0,
+              "right": 232.0,
+              "bottom": 631.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Rectangle 11",
+            "margin": {
+              "left": 16.0,
+              "top": 196.0,
+              "right": 17.0,
+              "bottom": 514.0
+            },
+            "tap-handler": "$where_to_go",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_11.svg"
+          },
+          {
+            "id": "Rectangle 12",
+            "margin": {
+              "left": 239.0,
+              "top": 206.0,
+              "right": 32.0,
+              "bottom": 524.0
+            },
+            "border-radius": 1000.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_12.svg"
+          },
+          {
+            "id": "Where To?",
+            "margin": {
+              "left": 31.0,
+              "top": 214.0,
+              "right": 258.0,
+              "bottom": 529.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "Where To?",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 1.1929999457465277,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "Vector 3",
+            "margin": {
+              "left": 223.5,
+              "top": 205.0,
+              "right": 152.5,
+              "bottom": 523.5
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.3499755859375
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.3499755859375
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_3.svg"
+          },
+          {
+            "id": "svgexport-1 1",
+            "margin": {
+              "left": 251.0,
+              "top": 211.0,
+              "right": 101.0,
+              "bottom": 529.0
+            },
+            "is-structured": false,
+            "children": [
+              "Group",
+              "Group1"
+            ]
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": 322.0,
+              "top": 220.0,
+              "right": 44.0,
+              "bottom": 539.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Now",
+            "margin": {
+              "left": 279.0,
+              "top": 216.0,
+              "right": 72.0,
+              "bottom": 534.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "text-content": "Now",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.1929999987284343,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "Ellipse 2",
+            "margin": {
+              "left": 24.0,
+              "top": 273.0,
+              "right": 318.0,
+              "bottom": 457.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "ellipse_2.svg"
+          },
+          {
+            "id": "Ellipse 3",
+            "margin": {
+              "left": 24.0,
+              "top": 354.0,
+              "right": 318.0,
+              "bottom": 376.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "ellipse_3.svg"
+          },
+          {
+            "id": "star_black_24dp 1",
+            "margin": {
+              "left": 31.0,
+              "top": 280.0,
+              "right": 325.0,
+              "bottom": 464.0
+            },
+            "is-structured": false,
+            "children": [
+              "Group4",
+              "Group5"
+            ]
+          },
+          {
+            "id": "Choose a saved place",
+            "margin": {
+              "left": 70.0,
+              "top": 280.0,
+              "right": 145.0,
+              "bottom": 465.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "Choose a saved place",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.1929999589920044,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "Set distination on map",
+            "margin": {
+              "left": 70.0,
+              "top": 361.0,
+              "right": 136.0,
+              "bottom": 384.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "Set distination on map",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.1929999589920044,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "Vector2",
+            "margin": {
+              "left": 352.0,
+              "top": 283.0,
+              "right": 16.59000015258789,
+              "bottom": 469.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "margin": {
+              "left": 352.0,
+              "top": 364.0,
+              "right": 16.59000015258789,
+              "bottom": 388.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector 4",
+            "margin": {
+              "left": 73.0,
+              "top": 329.0,
+              "bottom": 435.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.3499755859375
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.3499755859375
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_4.svg"
+          },
+          {
+            "id": "Vector 5",
+            "margin": {
+              "left": 73.0,
+              "top": 412.0,
+              "bottom": 352.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.3499755859375
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.3499755859375
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_5.svg"
+          },
+          {
+            "id": "Vector4",
+            "margin": {
+              "left": 37.0,
+              "top": 364.0,
+              "right": 330.0,
+              "bottom": 387.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector4.svg"
+          },
+          {
+            "id": "Around you",
+            "margin": {
+              "left": 24.0,
+              "top": 427.0,
+              "right": 254.0,
+              "bottom": 316.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "$around_you",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 1.1929999457465277,
+            "typeface": "Uber Move Text"
+          },
+          {
+            "id": "image 8",
+            "margin": {
+              "left": 247.0,
+              "top": 52.0,
+              "right": 18.0,
+              "bottom": 588.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "$image_in_image_main_page",
+            "scale": "cover"
+          },
+          {
+            "id": "image 9",
+            "margin": {
+              "left": 17.0,
+              "top": 469.0,
+              "right": 17.0,
+              "bottom": 112.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "$map_image",
+            "scale": "cover"
+          },
+          {
+            "id": "image 7",
+            "margin": {
+              "left": 316.0,
+              "right": 14.0,
+              "bottom": 725.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "$account_image",
+            "scale": "cover"
+          },
+          {
+            "id": "Home Indicator1",
+            "border-radius": 100.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": -8.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 5.0
+              }
+            },
+            "vector-content": "home_indicator.svg"
+          },
+          {
+            "id": "Group",
+            "is-structured": false,
+            "children": [
+              "Vector5"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group1",
+            "margin": {
+              "top": 2.0,
+              "right": 4.0,
+              "bottom": 2.0
+            },
+            "is-structured": false,
+            "children": [
+              "Group2"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Group2",
+            "is-structured": false,
+            "children": [
+              "Group3"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group3",
+            "is-structured": false,
+            "children": [
+              "Vector6"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector5.svg"
+          },
+          {
+            "id": "Group4",
+            "is-structured": false,
+            "children": [
+              "Vector7",
+              "Vector8"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group5",
+            "margin": {
+              "left": 1.66668701171875,
+              "top": 1.6666259765625,
+              "right": 1.6666450500488281,
+              "bottom": 2.5000410079956055
+            },
+            "is-structured": false,
+            "children": [
+              "Vector9"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Vector8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "id": "Vector9",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector6.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "green_rectangle_main_page": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "main_page_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "main_page_text2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "where_to_go": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "around_you": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image_in_image_main_page": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "map_image": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "account_image": {
+      "data-type": "image",
+      "required": false,
+      "description": "image"
+    }
+  },
+  "previews": [
+    {
+      "design": "Component 1",
+      "size": {
+        "width": 376.0,
+        "height": 764.0
+      },
+      "parameters": {
+        "main_page_text": "Satisfy any carving",
+        "main_page_text2": "Order on Eats",
+        "around_you": "Around you",
+        "image_in_image_main_page": "image_8.png",
+        "map_image": "image_9.png",
+        "account_image": "image_7.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
