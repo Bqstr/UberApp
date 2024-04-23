@@ -1,8 +1,6 @@
-package com.example.uberapp
+package com.example.uberapp.screens
 
 import android.util.Log
-import androidx.activity.ComponentActivity
-import androidx.activity.viewModels
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -39,9 +37,20 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.activity.viewModels
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowForward
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Divider
+import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.runtime.collectAsState
-import kotlinx.coroutines.flow.asStateFlow
+import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.res.painterResource
+import com.example.uberapp.MyViewModel
+import com.example.uberapp.R
 
 
 class LogInScreen {
@@ -58,23 +67,115 @@ class LogInScreen {
             Surface {
 
 
-                Column {
+                Column(Modifier.padding(start =18.dp ,end =18.dp)) {
+                    Text(text = "Enter your phone number",modifier =Modifier.padding(top =20.dp ,bottom =20.dp))
 
                     Row(){
                         CountryCodePick(
                             Modifier
-                                .width(100.dp)
-                                .height(60.dp),pickedCountryCode,viewModel)
-                        PhonePick(Modifier.height(60.dp),pickedCountryCode ,viewModel)
+                                // .width(100.dp)
+                                .height(60.dp)
+                                .weight(0.3f),
+                            
+
+                            pickedCountryCode,viewModel)
+                        
+                        
+                        Spacer(modifier = Modifier.weight(0.03f))
+                        PhonePick(
+                            Modifier
+                                .height(60.dp)
+                                .weight(0.67f),pickedCountryCode ,viewModel)
+                    }
+                    Button(onClick = {}, shape = RectangleShape ,modifier =Modifier.padding(bottom =40.dp,top =20.dp).fillMaxWidth().height(50.dp) ,
+                        colors = ButtonDefaults.buttonColors(  Color.Black)
+                    ) {
+                        Box(Modifier.fillMaxWidth()) {
+                            Text("Next",modifier =Modifier.align(
+                                Alignment.Center)  , color = Color.White)
+
+
+                            Icon(Icons.Default.ArrowForward, contentDescription = "", modifier =Modifier.align(
+                                Alignment.CenterEnd))
+                        }
+                        
                     }
 
-                    Text("By continuing you may recive an SMS fo rverification. Message and data rates may apply")
+                    Text("By continuing you may recive an SMS to verification. Message and data rates may apply", modifier =Modifier.padding(top =20.dp), color =Color.Gray)
 
-                    //Image(painter = , contentDescription = )
+                    Box(Modifier.padding(top =30.dp, bottom =30.dp)) {
+                        Text(text = "or", Modifier.align(Alignment.Center))
+                        Row(
+                            Modifier
+                                //.padding(start = 20.dp, end = 20.dp)
+                                .align(Alignment.Center)
+
+                        ) {
+                            Divider(
+                                color = Color.Black,
+                                thickness = 2.dp,
+                                modifier = Modifier
+                                    .weight(0.4f)
+                                    .align(Alignment.CenterVertically)
+                            )
+                            //Divider(color = Color.Blue, thickness = 2.dp, modifier = Modifier.weight(0.33f))
+                            Spacer(modifier  = Modifier
+                                .weight(0.2f)
+                                .align(Alignment.CenterVertically))
 
 
-                    //StraightLine()
-                    BlackLineWithText("or")
+                            Divider(
+                                color = Color.Black,
+                                thickness = 2.dp,
+                                modifier = Modifier
+                                    .weight(0.4f)
+                                    .align(Alignment.CenterVertically)
+                            )
+
+
+
+                        }
+                    }
+
+
+                    OutlinedButton(onClick = {  }, shape = RectangleShape, modifier = Modifier
+                        .height(50.dp),colors = ButtonDefaults.buttonColors(containerColor = Color.White),     border = BorderStroke(2.5.dp, Color.Black),
+
+                        ) {
+                        Box(Modifier.fillMaxWidth()){
+                            Image(painter = painterResource(id = R.drawable.google_icon), contentDescription = "logged by google", modifier = Modifier
+                                .align(
+                                    Alignment.CenterStart
+                                )
+                                .height(25.dp)
+                                .width(25.dp))
+
+                            Text(text ="Continue with Google", modifier = Modifier.align(Alignment.Center), color = Color.Black)
+
+                        }
+                    }
+                    OutlinedButton(onClick = {  }, shape = RectangleShape, modifier = Modifier
+                        .padding(
+                            top = 12.dp
+                        )
+                        .height(50.dp),colors = ButtonDefaults.buttonColors(containerColor = Color.White),     border = BorderStroke(2.5.dp, Color.Black),
+
+                        ) {
+                        Box(Modifier.fillMaxWidth()){
+                            Image(painter = painterResource(id = R.drawable.facebook_icon), contentDescription = "logged by google", modifier = Modifier
+                                .align(
+                                    Alignment.CenterStart
+                                )
+                                .height(25.dp)
+                                .width(25.dp))
+
+                            Text(text ="Continue with Facebook", modifier = Modifier.align(Alignment.Center), color = Color.Black)
+
+                        }
+                    }
+
+
+
 
                 }
             }
@@ -113,7 +214,7 @@ class LogInScreen {
 
         @OptIn(ExperimentalMaterial3Api::class)
         @Composable
-        fun CountryCodePick(modifier: Modifier,pickedCountryCode:String,viewModel:MyViewModel) {
+        fun CountryCodePick(modifier: Modifier,pickedCountryCode:String,viewModel: MyViewModel) {
             //val number_options = listOf<String>("KAZ +7", "USA  +1", " UZB  +997 ")
             val countryPhoneCodes = listOf(
                 "United States" to "+1",
@@ -130,7 +231,7 @@ class LogInScreen {
 
 
             Column(
-
+                modifier =modifier
             ) {
 
                 ExposedDropdownMenuBox(
@@ -139,8 +240,8 @@ class LogInScreen {
                     onExpandedChange = { expanded = !expanded }
                 ) {
                     TextField(
-                        modifier =modifier.menuAnchor(),
-
+                       // modifier =modifier.menuAnchor(),
+                        modifier = Modifier.menuAnchor(),
                         readOnly = true,
 
                         value = selected_option,
@@ -165,10 +266,10 @@ class LogInScreen {
                                         "${countryPhoneCodes[index].first}:${countryPhoneCodes[index].second}"
                                     expanded = false
                                     Log.d("12312213132123132","changed")
-                                    viewModel.pickedCountryCode.value ="+9"
+                                    viewModel.pickedCountryCode.value =text.second
 
                                 },
-                                contentPadding = ExposedDropdownMenuDefaults.ItemContentPadding
+                               // contentPadding = ExposedDropdownMenuDefaults.ItemContentPadding
 
                             )
                         }
